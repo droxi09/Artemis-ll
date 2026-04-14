@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artemis II — El Regreso de la Humanidad a la Luna</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#inicio" class="nav-logo">Artemis <span>II</span></a>
+  <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#mision">Misión</a></li>
+    <li><a href="#tripulacion">Tripulación</a></li>
+    <li><a href="#cronologia">Cronología</a></li>
+    <li><a href="#ciencia">Ciencia</a></li>
+    <li><a href="#futuro">Artemis III</a></li>
+  </ul>
+  <a href="https://www.nasa.gov/mission/artemis-ii/" target="_blank" class="nav-cta">NASA oficial ↗</a>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="inicio" style="padding-top:5rem;">
+  <div class="stars"></div>
+  <div class="moon-glow"></div>
+
+  <div style="position:relative; z-index:1;">
+    <span class="hero-badge">&#x1F680; Misión completada &nbsp;·&nbsp; Abril 2026</span>
+    <h1>Artemis <span>II</span></h1>
+    <p class="hero-sub">El primer viaje tripulado alrededor de la Luna en más de medio siglo. La humanidad volvió al espacio profundo.</p>
+
+    <div class="hero-meta">
+      <div><strong>1 abr 2026</strong>Lanzamiento</div>
+      <div><strong>10 días</strong>Duración</div>
+      <div><strong>6 abr 2026</strong>Sobrevuelo lunar</div>
+      <div><strong>10 abr 2026</strong>Amerizaje</div>
+    </div>
+  </div>
+</header>
+
+<!-- STATS -->
+<section style="background: var(--deep); padding: 4rem 1.5rem;">
+  <div class="container">
+    <div class="stats">
+      <div class="stat-card">
+        <div class="num">1.1M</div>
+        <div class="lbl">km recorridos</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">406.771</div>
+        <div class="lbl">km máx. de la Tierra (récord)</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">40.000</div>
+        <div class="lbl">km/h en reentrada</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">7.000+</div>
+        <div class="lbl">imágenes capturadas de la Luna</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">4</div>
+        <div class="lbl">astronautas a bordo</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">11</div>
+        <div class="lbl">paracaídas en el descenso</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE LA MISIÓN -->
+<section id="mision">
+  <div class="container">
+    <span class="section-tag">La misión</span>
+    <h2>¿Qué fue Artemis II?</h2>
+    <p>Artemis II fue la primera misión tripulada del programa Artemis de la NASA, y el primer vuelo humano más allá de la órbita terrestre desde la misión Apolo 17 en 1972. No incluyó alunizaje, sino un vuelo de sobrevuelo lunar en trayectoria de retorno libre, diseñado para validar la cápsula Orion y todos sus sistemas con astronautas a bordo.</p>
+    <p>La misión utilizó el cohete SLS (Sistema de Lanzamiento Espacial) y la cápsula Orion, bautizada <strong style="color:var(--white)">Integrity</strong>. Despegó desde el Complejo de Lanzamiento 39B del Centro Espacial Kennedy en Florida.</p>
+
+    <div class="highlight-box">
+      <blockquote>"Con esta maniobra hacia la Luna, no abandonamos la Tierra. La elegimos."</blockquote>
+      <cite>— Christina Koch, especialista de misión, durante la maniobra de inyección translunar</cite>
+    </div>
+  </div>
+</section>
+
+<!-- TRIPULACIÓN -->
+<section id="tripulacion" style="background: var(--deep); padding: 5rem 1.5rem;">
+  <div class="container">
+    <span class="section-tag">Tripulación</span>
+    <h2>Los cuatro pioneros</h2>
+    <p>La misión marcó varios hitos históricos: primer astronauta negro, primera mujer y primer astronauta canadiense en viajar a las cercanías de la Luna.</p>
+
+    <div class="crew-grid">
+      <div class="crew-card">
+        <div class="crew-avatar av-red">RW</div>
+        <h3>Reid Wiseman</h3>
+        <div class="role">Comandante · NASA · 50 años</div>
+        <span class="hito">Líder de la misión</span>
+      </div>
+      <div class="crew-card">
+        <div class="crew-avatar av-blue">VG</div>
+        <h3>Victor Glover</h3>
+        <div class="role">Piloto · NASA · 49 años</div>
+        <span class="hito">1.er astronauta negro cerca de la Luna</span>
+      </div>
+      <div class="crew-card">
+        <div class="crew-avatar av-green">CK</div>
+        <h3>Christina Koch</h3>
+        <div class="role">Especialista de misión · NASA · 47 años</div>
+        <span class="hito">1.ª mujer en orbitar la Luna</span>
+      </div>
+      <div class="crew-card">
+        <div class="crew-avatar av-amber">JH</div>
+        <h3>Jeremy Hansen</h3>
+        <div class="role">Especialista de misión · CSA · 50 años</div>
+        <span class="hito">1.er canadiense cerca de la Luna</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LÍNEA DE TIEMPO -->
+<section id="cronologia">
+  <div class="container">
+    <span class="section-tag">Cronología</span>
+    <h2>Hitos de la misión</h2>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">1 de abril de 2026 — 22:35 UTC</div>
+        <div class="tl-title">Lanzamiento desde Kennedy</div>
+        <div class="tl-desc">El cohete SLS despegó del Complejo 39B ante miles de espectadores reunidos en Titusville, Florida. La tripulación completó con éxito la maniobra de inyección translunar (TLI), que duró cinco minutos y puso a Orion en trayectoria lunar.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">4-5 de abril de 2026</div>
+        <div class="tl-title">Tránsito hacia la Luna</div>
+        <div class="tl-desc">La tripulación realizó pruebas de los sistemas de soporte vital, maniobras de pilotaje manual y ejercicios físicos. Victor Glover fue el primero en usar el dispositivo de volante de inercia de Orion.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">6 de abril de 2026</div>
+        <div class="tl-title">Sobrevuelo lunar y récord de distancia</div>
+        <div class="tl-desc">La cápsula alcanzó 406.771 km de la Tierra, superando el récord del Apolo 13 de 1970 por más de 6.600 km. Los astronautas captaron más de 7.000 imágenes de cráteres, flujos de lava antiguos y la Vía Láctea. También presenciaron un eclipse solar desde el espacio, siete veces más duradero que los vistos desde la Tierra.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">6-7 de abril de 2026</div>
+        <div class="tl-title">Cara oculta de la Luna</div>
+        <div class="tl-desc">Durante más de 50 minutos la nave cruzó el lado oscuro de la Luna sin comunicación con la Tierra. Al recuperar la señal, Koch anunció: "Es un gusto volver a estar en comunicación con ustedes. Estamos de camino a la Tierra".</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">7-9 de abril de 2026</div>
+        <div class="tl-title">Regreso a la Tierra</div>
+        <div class="tl-desc">Orion inició su trayectoria de retorno. La tripulación se comunicó con el presidente Donald Trump. Los ingenieros en Houston monitorearon el escudo térmico y los sistemas de soporte vital de cara al reingreso.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">10 de abril de 2026 — 20:07 (hora del Este)</div>
+        <div class="tl-title">Amerizaje en el Pacífico</div>
+        <div class="tl-desc">La cápsula Orion tocó el océano Pacífico frente a la costa de San Diego a más de 40.000 km/h, tras desplegar 11 paracaídas. Orion aterrizó a menos de una milla del punto previsto. Los cuatro astronautas fueron recibidos en el buque USS John P. Murtha.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DESCUBRIMIENTOS -->
+<section id="ciencia" style="background: var(--deep); padding: 5rem 1.5rem;">
+  <div class="container">
+    <span class="section-tag">Ciencia y logros</span>
+    <h2>Lo que la misión nos dejó</h2>
+
+    <div class="disc-grid">
+      <div class="disc-card">
+        <span class="disc-icon">🌑</span>
+        <h3>7.000+ imágenes lunares</h3>
+        <p>Vistas inéditas de cráteres de impacto, flujos de lava antiguos, fracturas en la superficie y la salida y puesta de la Tierra vistas desde la órbita lunar.</p>
+      </div>
+      <div class="disc-card">
+        <span class="disc-icon">🔬</span>
+        <h3>Investigación AVATAR</h3>
+        <p>Experimentos con órganos en chip para estudiar cómo la microgravedad y la radiación del espacio profundo afectan los tejidos humanos.</p>
+      </div>
+      <div class="disc-card">
+        <span class="disc-icon">🛸</span>
+        <h3>Validación de Orion</h3>
+        <p>Se confirmó que la cápsula puede sustentar vida humana en espacio profundo. También se realizaron maniobras manuales para preparar futuros acoplamientos.</p>
+      </div>
+      <div class="disc-card">
+        <span class="disc-icon">🌘</span>
+        <h3>Eclipse solar histórico</h3>
+        <p>La tripulación observó un eclipse solar total desde el espacio, con una duración siete veces mayor que los vistos desde la superficie terrestre.</p>
+      </div>
+      <div class="disc-card">
+        <span class="disc-icon">📡</span>
+        <h3>CubeSats internacionales</h3>
+        <p>Cinco satélites de Argentina, Alemania, Corea y Arabia Saudita viajaron como carga útil, recopilando datos de radiación y comunicaciones en alta órbita.</p>
+      </div>
+      <div class="disc-card">
+        <span class="disc-icon">📏</span>
+        <h3>Récord de distancia humana</h3>
+        <p>Orion y su tripulación establecieron el nuevo récord de distancia para vuelos espaciales tripulados: 406.771 km de la Tierra, superando al Apolo 13 de 1970.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRÓXIMO PASO -->
+<section id="futuro" class="future-section">
+  <div class="container">
+    <span class="section-tag">Mirando hacia adelante</span>
+    <h2>¿Qué sigue? Artemis III en 2027</h2>
+    <p>La NASA ya trabaja en Artemis III, que planea llevar astronautas a la superficie lunar por primera vez desde 1972. El administrador de la NASA, Jared Isaacman, declaró que la atención se centra en "establecer una presencia permanente en la Luna y no volver a abandonarla jamás".</p>
+
+    <div class="future-card" style="margin-top: 2rem;">
+      <span class="tag-gold">Lecciones de Artemis II</span>
+      <p style="margin-bottom: .8rem;">Los ingenieros identificaron áreas de mejora para Artemis III a partir de los datos obtenidos:</p>
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: .8rem;">
+        <li style="display:flex; gap:.8rem; align-items:flex-start;">
+          <span style="color:var(--gold); font-size:1.1rem; flex-shrink:0;">▸</span>
+          <span style="color:var(--muted); font-size:.92rem;">El sistema de propulsión Integrity sufrió una fuga de helio, lo que obliga a un rediseño de las válvulas de presión.</span>
+        </li>
+        <li style="display:flex; gap:.8rem; align-items:flex-start;">
+          <span style="color:var(--gold); font-size:1.1rem; flex-shrink:0;">▸</span>
+          <span style="color:var(--muted); font-size:.92rem;">El escudo térmico de Orion requiere una revisión minuciosa tras el reingreso a alta velocidad.</span>
+        </li>
+        <li style="display:flex; gap:.8rem; align-items:flex-start;">
+          <span style="color:var(--gold); font-size:1.1rem; flex-shrink:0;">▸</span>
+          <span style="color:var(--muted); font-size:.92rem;">El sistema de sanitarios presentó fallas técnicas; se prevén ajustes antes del próximo vuelo.</span>
+        </li>
+        <li style="display:flex; gap:.8rem; align-items:flex-start;">
+          <span style="color:var(--gold); font-size:1.1rem; flex-shrink:0;">▸</span>
+          <span style="color:var(--muted); font-size:.92rem;">La nave Starship de SpaceX deberá demostrar capacidad de vuelo lunar antes de fungir como módulo de aterrizaje en Artemis III.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<script>
+function switchTab(e, id) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  e.target.classList.add('active');
+}
+function copyCode(btn) {
+  const pre = btn.nextElementSibling;
+  navigator.clipboard.writeText(pre.innerText).then(() => {
+    btn.textContent = '¡Copiado!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copiar'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+</script>
+
+<!-- FOOTER -->
+<footer>
+  <p>Información basada en fuentes oficiales de la NASA y medios internacionales &nbsp;·&nbsp; Última actualización: abril 2026</p>
+  <p style="margin-top:.5rem;">
+    <a href="https://www.nasa.gov/mission/artemis-ii/" target="_blank">nasa.gov/artemis-ii</a>
+  </p>
+</footer>
+
+</body>
+</html>
